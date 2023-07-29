@@ -12,3 +12,5 @@ mensual. */
 
 let invercion = prompt("escribir valor de invercion ")
 let razon = (2/100);
+
+/*Ejercicio 3 */
