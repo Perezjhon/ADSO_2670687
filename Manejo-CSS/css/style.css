@@ -1,0 +1,26 @@
+ .main-nav{
+    background-color: rgb(75, 184, 177);
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;    
+}
+.main-nav li{
+    display: inline-block;
+    text-align: center;
+}
+
+.main-nav-item a {
+    text-decoration:none ;
+    padding: 40px 30px 40px 20px ;
+    display: block;
+    color:#fff;
+    font-size: large;
+    border-right: 1px solid white;
+    
+}
+
+.main-nav-item a:hover{
+    background-color: #fff;
+    color:chartreuse
+}

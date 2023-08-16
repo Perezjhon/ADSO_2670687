@@ -12,6 +12,7 @@ mensual. */
 
 /*let invercion = prompt("escribir valor de invercion ")
 let razon = (2/100);
+
 let trazon = parseInt(invercion*razon)
 alert("su ganancia del mes es: " +trazon)*/
 
@@ -83,3 +84,6 @@ let pros2 = parseInt(prosupes*Traum);
 let pros3 = parseInt(prosupes*pediat);
 let trecb = parseInt(pros)+ parseInt(pros2)+ parseInt(pros3);
 alert("la cantidad de dinero que recibira es: "+trecb);
+
+/*Ejercicio 3 */
+
