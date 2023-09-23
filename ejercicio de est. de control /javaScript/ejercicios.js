@@ -7,7 +7,8 @@ if (edad >= 18){
     alert("eres menor de edad.");
 }*/
 
-/*let promedio = prompt("ingrse su calificaciones");
+ /* ejercicio 2
+ let promedio = prompt("ingrse su calificaciones");
 let exa = prompt("ingrese su  calificacion  ");
 let trab = prompt("ingrse su calificacion");
 let pro1 = 55/100
@@ -26,14 +27,15 @@ if (cf >= 10){
     alert("Reprobado")
 }*/
 
-/*let A= prompt("ingrese el numero")
+/* ejercicio 3 
+let A= prompt("ingrese el numero")
 let B= prompt("ingrese el numero")
 if ( A<= B){
     alert("A es mayor que B");
 } else {( A>= B)
     alert("B es menor que A ")}*/
 
-/*
+/* ejercicio 4
     let peso = prompt("ingrese su peso ");
 
     peso = parseInt(peso);
@@ -49,7 +51,8 @@ if ( A<= B){
         alert("persona con sobrepeso");
     }*/
 
-/*let dia = prompt("ingrese un numero entre 1 y 7: ");
+/* ejercicio 5
+let dia = prompt("ingrese un numero entre 1 y 7: ");
 dia =  parseInt(dia); 
 
 if (dia < 1 || dia > 7){
@@ -83,7 +86,8 @@ switch (dia) {
 }
 }*/
 
-/*var  compra = prompt("ingrese lel valor de la compra");
+/* ejercicio 6 
+var  compra = prompt("ingrese lel valor de la compra");
 compra =  parseInt(compra); 
 
 if (compra>=1000){
@@ -94,7 +98,8 @@ if (compra>=1000){
 total = compra - descuento;
 alert("el total de pagar es: "+ total + "peso");*/
 
-/*var  horas = prompt("ingrese las horas trabajadas ");
+/* ejercicio 7
+var  horas = prompt("ingrese las horas trabajadas ");
 horas = parseInt(horas);
 if (horas <= 40) {
 salario = horas * 16000;
@@ -104,3 +109,34 @@ salario = horas * 16000;
 salario = 40 * 16.000 + (horas - 40) * 20000;
 }
 alert("el salrio semanal es de "+ salario + "pesos.")*/
+
+/* ejercicio 8
+let nombre1 = prompt("ingrese su nombre");
+let edad1 = prompt("ingrese la edad");
+let nombre2 = prompt("ingres su nombre");
+let  edad2 = prompt("ingrese la edad");
+
+if (edad1<edad2){
+
+    alert(nombre1 + "  tiene mas edad que " + nombre2);
+ }else {
+       (edad1>edad2)
+
+     alert(nombre1 + " tienes mas edad que "+ nombre2);
+
+    }*/
+
+
+    let precio = prompt("ingrese de la camisa");
+let cantidad = prompt("ingrese la cantidad de camisas compradas");
+
+totalsindescuento = cantidad * precio
+
+if (cantidad>=3) {
+    descuento = 0.2 = totalsindescuento;
+}else{
+    descuento = 0.1 = totalsindescuento;
+}
+total = totalsindescuento - descuento;
+ 
+alert("el total apagar es de "+ total + "pesos.");
